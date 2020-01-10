@@ -1,0 +1,16 @@
+Machine Learning 
+
+1. Field of study that gives computers the ability to learn without being explicitly programmed 
+2. Computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, 
+if its performance at tasks in T, as measured by P, improves with experience E.
+
+
+supervised learning --> regression or classification 
+unsupervised learning --> finding structure in unlabelled data 
+
+regression: continuous-value output
+classification: discrete-value output
+(a) Regression - Given a picture of a person, we have to predict their age on the basis of the given picture
+(b) Classification - Given a patient with a tumor, we have to predict whether the tumor is malignant or benign.
+
+Unsupervised learning example - clusters of similar genes 
