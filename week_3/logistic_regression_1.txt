@@ -1,0 +1,9 @@
+logistic regression is a classification algorithm where the label y is a discrete value (linear regression, on the other hand, won't be a good idea since classification is NOT a linear function)
+
+sigmoid function and logistic function are basically synonyms 
+
+theta_t * x <-- linear regression function is the input for the sigmoid function
+
+
+h(x) = p(y=1|x; theta) translates to probability that y=1 given x parameterized by theta 
+
