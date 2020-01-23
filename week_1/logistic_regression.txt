@@ -1,0 +1,31 @@
+- supervised learning (either classification or regression)
+
+classification - predict discrete-value output 
+regression - predict real-value output 
+
+
+- linear regression 
+
+hypothesis function 
+
+h(x) = theta_0 + theta_1 * x 
+
+To find the best fit that will predict the real-valued output, we have to find optimal theta parameters. 
+
+How to do this?
+
+Minimize the cost function, which is the squared-error value, minimize the distance between the actual training point and the points on the line. 
+
+- gradient descent 
+
+gradient descent is just another way of minimizing the cost function to find the optimal parameters of some hypothesis/predictive algorithm
+
+You start at some theta parameter value and you keep updating the theta value to minimize the cost function J(theta_x); simultaneously update for each theta parameter x.
+
+If the step-size alpha is too small, gradient descent may take a long time 
+If the step-size alpha is too big, the gradient descent may never converge to a minimum, that is, to the best value of the theta parameter, which has minimum error
+
+
+No need to decrease step-size over time as gradient descent will automatically take smaller step-sizes as it approaches the minimum. 
+
+Each iteration uses all training examples. 
